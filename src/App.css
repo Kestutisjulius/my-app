@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 1.7s linear;
   }
 }
 
@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: yellow;
 }
 
 .App-link {
@@ -35,4 +35,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+.btn{
+  background-color: #282c34;
+  border: 1px solid yellow;
+  color: yellow;
+  padding: 10px;
+  font-size: 16px;
+}
+.f{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.kvadratas {
+  margin: 2px;
+  display: inline;
+  background-color: black;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 7px;
+
 }
